@@ -25,36 +25,45 @@ class APIController extends Controller
         auth()->setDefaultDriver('api');
     }
 
-    public function login(Request $request)
+   
+     public function login(Request $request)
     {
+       
         $validator = Validator::make($request->all(), [
-           'email' => 'required',
-           'password' => 'required'
-      	]);
+           'license_Key' => 'required'       
+        ]);
         
-		if ($validator->fails()) {
-			return response()->json([
-				'status' => false,
-				'message' => $validator->errors()->first()
-			]);
-		}
-
-        $credentials['email']       = $request->input('email');
-        $credentials['password']    = $request->input('password');
-        $token = auth()->attempt($credentials);
-
-        if(empty($token)){
+        if ($validator->fails()) {
             return response()->json([
-                'status' => false,
-                'message' => "Wrong email and password."
+                'status' => 404,
+                'message' => $validator->errors()->first()
             ]);
         }
 
-        $user = auth()->user();
+        $license_Key = $request->input('license_Key');
+
+        $user = User::where('license',$license_Key)->first();
+
+        if($user != null){
+            $token = auth()->tokenById($user->id);
+        }else{
+            return response()->json([
+                'status' => 404,
+                'message' => "Invalid license Key"
+            ]);
+        }
+
+        if(empty($token)){
+            return response()->json([
+                'status' => 404,
+                'message' => "Wrong license Key."
+            ]);
+        }
+
 
         if($user->status == 0){
             return response()->json([
-                'status' => false,
+                'status' => 404,
                 'message' => "Your account is not activated."
             ]);
         }
@@ -65,31 +74,10 @@ class APIController extends Controller
             ]);
         }
         
-        /*$plan_data = DB::table('users as u')
-        ->join('subscriptions as s','s.id','=','u.subscription_id')
-        ->join('plans as p','p.id','=','s.plan_id')
-        ->where('u.id',$user->id)
-        ->select('p.name as plan','s.expired_on','p.price','p.type','p.id as plan_id')
-        ->get()
-        ->first();
-        
-        $highest_plan_data = DB::table('plans')
-        ->orderBy('leads_limit','desc')
-        ->limit(1)
-        ->get(['id'])->first();
-        $highest_plan_id = $highest_plan_data->id;
-        
-        $upgrade = true;
-        if($plan_data->plan_id == $highest_plan_id){
-            $upgrade = false;
-        }*/
-        
         return response()->json([
-            'status' => true,
+            'status' => 200,
             'user' => $user,
             'token' => $token,
-            //'plan' => $plan_data,
-            //'upgradeBtn' => $upgrade,
             'message' => "Login Successfully."
         ]);
     }
@@ -170,13 +158,15 @@ class APIController extends Controller
 
     public function forgotPassword(Request $request)
     {
+
+        
         $validator = Validator::make($request->all(), [
            'email' => 'required|email'
         ]);
         
         if ($validator->fails()) {
             return response()->json([
-                'status' => false,
+                'status' => 404,
                 'message' => $validator->errors()->first()
             ]);
         }
@@ -184,16 +174,18 @@ class APIController extends Controller
         $email = $request->input('email');
 
         $user = User::where('email',$email)->get()->first();
+    
 
         if(empty($user)){
             return response()->json([
-                'status'=>false,
+                'status'=>404,
                 'message'=>"Email is not registered with us."
             ]);
         }
-        $tempPassword = strtolower(generateRandomString(8));
+       // $tempLicense = strtolower(generateRandomString(8));
+        $tempLicense = generateRandomString(20);
         User::where('email',$email)->update([
-            'password' => Hash::make($tempPassword) 
+            'license' => $tempLicense 
         ]);
 
         //$reset_token = generateRandomString(20);
@@ -205,10 +197,10 @@ class APIController extends Controller
         //     'created_at' => date('Y-m-d h:i:s')
         // ]);
 
-        sentResetPasswordLink($user->name,$email,$tempPassword);
+        //sentResetPasswordLink($user->name,$email,$tempLicense);
         // if($mail_sent){
         return response()->json([
-            'status'=>true, 
+            'status'=>200, 
             'message'=>'Reset link sent to your email.'
         ]);          
         // } else {

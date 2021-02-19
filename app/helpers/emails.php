@@ -115,11 +115,11 @@ $message
 	return [];*/
 }
 
-function sentResetPasswordLink($name,$email,$tempPassword){
+function sentResetPasswordLink($name,$email,$tempLicense){
     $template = "Hi ".$name.",<br/><br/>";
-	$template .= "Here is your new password for page2leads: ". $tempPassword ."<br/><br/>";
-	$template .= "Thanks<br/>Page2Leads Team";
-	return sendGridApi($email, "Recover Your Page2Leads password", $template);
+	$template .= "Here is your new license for Notesilo: ". $tempLicense ."<br/><br/>";
+	$template .= "Thanks<br/>Notesilo Team";
+	return sendGridApi($email, "Recover Your Notesilo License", $template);
 }
 
 function sendResetLinkMail($name,$license,$email){	
