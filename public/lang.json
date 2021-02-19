@@ -1,0 +1,1043 @@
+{
+	"en": {
+		"all_settings": {
+			"global_autoresponder_label": "Disable autoresponder globally",
+			"global_googlesheet_enable_label": "Allow the same google sheet for all groups",
+			"global_declinemessage_enable_label": "Allow to send decline message globally",
+			"global_language_label": "Language Settings",
+			"all_groups_table": {
+				"all_groups_group_name_th_2": "Group Name",
+				"all_groups_group_name_th_3": "Action",
+				"actions": {
+					"setting_title": "Settings",
+					"auto_approve_title": "Auto approve settings",
+					"delete_title": "Delete"
+				},
+				"load_more": "LOAD MORE..."
+			}
+		},
+		"footer": {
+			"affiliate_url_label": "Become an Affiliate",
+			"get_support_label": "Read Tutorials",
+			"web_app_label": "Login to Web App",
+			"h5": "Found Group Leads Useful?",
+			"chrome_store_h6": "Please,consider giving it a rating at the <a href='https://chrome.google.com/webstore/detail/group-leads-facebook-grou/fflgpaejocnobejfanekjilflogejjch' class='light-text' target='_blank'>chrome web store</a>",
+			"note_affiliate_p": "*Group Leads is not affiliated with Facebook in any way."
+		},
+		"settings_per_group": {
+			"settings_for_h5": "SETTINGS FOR",
+			"google_sheet_url": {
+				"label": "*Enter your Google Sheet URL",
+				"verified": "Verified",
+				"verify": "Verify"
+			},
+			"google_sheet_copy": {
+				"label": "*Make a copy of this <a target='_blank' href='https://docs.google.com/spreadsheets/d/1JTdt8RQ5ARNJefDmJatdwWZlpr24eBA_fC8ej1gpuDw/edit#gid=0'>Google Sheet & Format</a>"
+			},
+			"autoresponder_section": {
+				"header_h6": "AUTORESPONDERS",
+				"credentials_form_link_a": "Credentials"
+			},
+			"disable_autoresponder_per_group": "Disable Autoresponder",
+			"disable_decline_per_group": "Enable Decline Messaging",
+			"disable_welcome_per_group": "Enable Welcome Messaging",
+			"disable_tagging_per_group": "Tag New Members In Welcome Post",
+			"show_custom_decline": "Custom Decline Message ",
+			"show_custom_welcome": "Custom Welcome Message ",
+			"view_google_sheet_data": "View Data",
+			"update_button": "UPDATE",
+			"back_button": "BACK"
+		},
+
+		"report_page": {
+			"table": {
+				"th_1": "Group Name",
+				"th_2": "Last Automation Time",
+				"th_3": "Next Automation Time",
+				"error_message":"You need to add at least a group in order to see your automatic approval report.",
+				"automation_off":"Automation is off"
+			}
+		},
+
+		"share_page": {
+			"page_title_h4": "SHARE THROUGH EMAIL",
+			"email_label": "Contact Email",
+			"email_placeholder": "Enter emails seperated by commas",
+			"email_h6": "e.g (johndoe@gmail.com, mary@live.com)",
+			"share_message": "Message",
+			"share_textarea_message": "I'm using Group Leads chrome extension to convert my new facebook group members into leads in google sheet and email marketing autoresponder.                           Check it out: https://groupleads.net/",
+			"button_label": "SHARE"
+		},
+		"profile_page": {
+			"page_title_h4": "EDIT PROFILE",
+			"full_name_label": "Full Name*",
+			"email_label": "Email Address*",
+			"button_label": "UPDATE",
+			"profile_message_h3":"Your profile has been updated",
+			"billing_section": {
+				"h2_1": "BILLING INFORMATION",
+				"h2_2": "Current Plan",
+				"allowed_text": "Groups Allowed:",
+				"p_text": "Click the upgrade button below to never have to pay monthly fees & be able to add unlimited Facebook groups.",
+				"upgrade_button_label": "UPGRADE"
+			}
+		},
+
+		"decline_message_page": {
+			"page_title_h5": "DECLINE MESSAGE",
+			"note": {
+				"span": "Note",
+				"text": ": You can use [first_name], [last_name], [group_name], [group_url]"
+			},
+			"decline_message": {
+				"label": "Custom Message"
+			},
+			"decline_interval_text":"Send message every",
+            "decline_interval_text_sp":"minute(s)",
+            "decline_limit_text":"Stop after I've sent",
+            "decline_limit_text_sp":" messages",
+            "decline_start_text":"Pause and start again after",
+            "decline_start_text_sp":"minute(s)",
+            "decline_random_message_per_group":"Randomize Messages",
+            "decline_message_template": "Hey [first_name], \n\nYou've requested to join [group_name] but we declined you because you did not fill up the welcome questions. \n\nHere is the group url : [group_url] Please, join again, fill up the questions and you will be accepted.",
+
+			"update_button_lable": "UPDATE",
+			"back_button_lable": "BACK",
+			"auto_decline_per_group":"Auto Decline Based On Keywords",
+            "auto_decline_key_label":"Keywords",
+            "auto_decline_placeholder":"Type a keyword and press ENTER Key",
+            "auto_decline_key_label_2":"Interval",
+            "auto_decline_save_btn":"Save"
+		},
+		
+		"tag_page": {
+		     "tag_key_label": "Tag New Members In Welcome Post",
+            "tag_key_label_2":"Post URL",
+            "tag_in_single_comment_label":"Tag custom approve all in single comment",
+             "welcome_comment": "Thank you for joining 👍",
+            "tag_random_message_per_group":"Randomize Comments",
+            "save_tag_form":"Save"
+		},
+		
+		"welcome_message_page": {
+			"page_title_h5": "WELCOME MESSAGE",
+			"note": {
+				"span": "Note",
+				"text": ": You can use [first_name], [last_name], [group_name], [group_url]"
+			},
+			"welcome_message": {
+				"label": "Custom Message"
+			},
+			"welcome_interval_text":"Send message every",
+            "welcome_interval_text_sp":"minute(s)",
+            "welcome_limit_text":"Stop after I've sent",
+            "welcome_limit_text_sp":" messages",
+            "welcome_start_text":"Pause and start again after",
+            "welcome_start_text_sp":"minute(s)",
+            "welcome_random_message_per_group":"Randomize Messages",
+            "welcome_message_template": "Hey [first_name] [last_name], \n\nThank you for requesting to join [group_name].\n\nI've just approved you and I'm super excited to have you in our group. \n\nFeel free to make your first post and introduce yourself. \n\nPS: If you would like to invite other people to benefit from this group, please send them the link below:[group_url]",
+
+			"update_button_lable": "UPDATE",
+			"back_button_lable": "BACK"
+		},
+
+		"auto_approve_page_settings": {
+			"page_title_h5": "AUTO APPROVE SETTINGS",
+			"enable_automation_lable": "Enable Automatic Approval",
+			"interval_label": "Auto Approve new Members after every (Minutes);",
+			"valid_member_section": {
+				"section_label": "Auto Approve new members If:",
+				"all_answered_label": "All three questions are answered",
+				"is_email": "Email is dropped in one of the questions",
+				"joined_before_label": "Joined facebook at least:",
+				"joined_before_options":["--",
+											"Before 1 month",
+											"Before 3 months",
+											"Before 6 months",
+											"Before 1 year",
+											"Before 2 years",
+											"Before 3 years"
+											],
+				"already_friends_label": "Has number of friends already in the group:",
+				"lives_in_label": "Located or lives in:",
+				"lives_in_placeholder": "Enter city name",
+				"mutual_friend_label": "Has number of mutual friends with me:",
+				"common_groups_label": "Has number of groups in common with me:",
+				"update_button_lable": "UPDATE",
+				"update_button_lable_processing": "Saving...",
+				"back_button_lable": "BACK"
+			}
+		},
+
+		"credential_autoresponder_page": {
+			"credential_title_span_2": " CREDENTIALS",
+			"update_button_lable": "Verify & Update",
+			"back_button_lable": "BACK",
+			"kartra_label": "* APP Id",
+			"mautic_label": "* Campaign ID",
+			"cancel_edit":"Cancel Edit"
+		},
+
+		"login_page": {
+			"login_page_title_h3": "Welcome!!",
+			"p1_text": "Want to setup a Facebook group funnel, save time and make more money? ",
+			"license_key": {
+				"label": "Please enter your <span>LICENSE KEY</span> to start.",
+				"placeholder": "Enter License Key"
+			},
+			"forgot_key_a": "Forgot License Key?",
+			"login_button_label": "LOGIN",
+			"signup_label":"Start Free Trial"
+		},
+
+		"forgot_license_page": {
+			"forgot_label": "FORGOT LICENSE KEY?",
+			"forgot_placeholder": "Enter Your Registered Email Address ",
+			"forgot_button_label": "SEND LICENSE",
+			"already_key": {
+				"text": "Already have a license key?",
+				"a_text": "LOGIN"
+			}
+		},
+
+		"autoresponder_credential_page": {
+			"page_title_span_2": "CREDENTIALS",
+			"submit_lable": "Verify & Update",
+			"back_button_lable": "BACK"
+		},
+		
+		"logout_modal": {
+			"logout_modal_h3": "Come back soon!",
+			"logout_modal_h6":"Are you sure you want to log out?",
+			"yes_btn": "Yes",
+			"no_btn": "Cancel",
+			"logout_message":"You are now logged out"
+		},
+		
+		"delete_group_modal": {
+			"message_delete_h6": "Are you sure you want to delete this group",
+			"yes_btn": "Yes",
+			"no_btn": "Cancel"
+		},
+		
+		"share_modal":{
+		    "share_h3":"Thank you for sharing with your friends"
+		},
+		
+		"api_message":{
+		        "login": {
+		            "cancle_message":"Your licence is canceled. Please contact administrator.",
+		             "expired_message":" Your licence has expired. Please contact administrator.",
+		             "200_message":"Login success",
+		             "invalid_key_message":"Invalid License Key",
+		             "update_message":"Please update GroupLeads Extension."
+		        },
+		          
+		        "save_auto_settings":{
+		            "save_message":"Settings saved.",
+		            "update_message":"Settings updated."
+		            
+		        },
+		        
+		        "decline_page_message":"Decline message saved.",
+		          "welcome_page_message":"Welcome message saved.",
+		        
+		        "global_setting_message":"Settings updated.",
+		        
+		        "reset_license": {
+		            "send_mail":"Mail sent successfully",
+		             "went_wrong":" Something went wrong. Try again.",
+		             "not_register":"Email not registered with us!!"
+		         
+		        },
+		        
+		        "update_autoresponder_credentials":{
+		            "new_added":"Credentials verified and added.",
+		            "verified_updated":"Credentials verified and updated",
+		            "invalid_message":"Invalid Credentials."
+		        },
+		        
+		        "per_group_setting":{
+		            
+		            "already_used":"This google sheet url is already associated with another group.",
+		            "updated_settings":"Settings updated.",
+		            "update_build":"Update Build"
+		            
+		            
+		        }
+		    
+		},
+		
+		"content_script_message":{
+		    "invalid_google_sheet_url":"Please assign a valid googlesheet to this group.",
+		    "select_autoresponder":"Please select an email autoresponder for this group.",
+		    "blank_credentials":"Please enter credentials for selected autoresponder.",
+		    "loading_requests":"Loading All Requests...",
+		    "uploading_message":"Uploading...",
+		    "complete_message":"Complete"
+		},
+		
+		"background_script_message":{
+		    "google_sheet_not_valid":"Google Sheet is not valid",
+		    "google_sheet_not_valid_for":"Google Sheet Url is not valid for ",
+		    "google_sheet_url_invalid":"Google Sheet Url is not valid. "
+		},
+		
+		"login_form":"License key can not be empty",
+		
+		"profile_form":{
+		    "name":"Full name can not be empty",
+            "email":{
+                "required": "Email can not be empty",
+                "email": "Please enter valid email",
+                "remote": "Email already registered"
+            }
+		    
+		},
+		
+		"forgot_password":{
+		    "email":{
+                "required": "Email can not be empty",
+                "email": "Please enter valid email"
+		    }
+		    
+		},
+		
+		"group_setting_form" :{
+            "google_sheet_url":{
+                    "required": "Google sheet URL can not be empty",
+                    "url": "Invalid Url Format"
+            }
+        },
+        
+        "share_form":{
+            "emails":{
+            "required": "Field can not be empty",
+            "multiemails": "Invalid emails format"
+            },
+            "sharemessage":{
+                "required": "Field can not be empty"
+            }
+        },
+        
+        "credential_form":{
+            "fields":{
+                "required":"This field is required.",
+                "url":"Please enter a valid URL"
+            }
+            
+        },
+        
+        "add_group_tab":{
+            
+            "add_group_h5":"Start by linking your Facebook group",
+            "add_group_btn":"ADD THIS GROUP"
+        },
+        
+        
+        "open_my_groups_tab":{
+            
+            "open_my_group_h5":"Start by linking your Facebook group",
+            "open_my_group_btn":"OPEN MY GROUPS",
+            "lost_way_h5":"Lost your way?",
+            "check_h4":"You can check the tutorial here",
+            "or_h6":"Or",
+            "request_call":"Request 5-15 mins setup call via ZOOM"
+        },
+        
+        "open_facebook_groups":{
+            
+            "opening_h5":"Start by opening your Facebook group",
+            "lost_way_h5":"Lost your way?",
+            "or_h4":"You can check the tutorial here",
+            "request_call":"Request 5-15 mins setup call via ZOOM"
+        },
+        
+        "navigation":{
+            "sharetext":"Share",
+            "settingtext":"Settings",
+            "reporttext":"Report",
+            "profiletext":"Profile",
+            "logouttext":"Logout"
+        },
+        
+        "ar_labels":{
+            "mailchimp":{
+                "1":"Tag Name",
+                "2":"* API key ",
+                "3":"* Audience ID"
+            },
+            "getresponse":{
+                "1":"",
+                "2":"* API Key",
+                "3":"* List Name"
+            },
+             "sendy":{
+                "1":"* API Path",
+                "2":"* API Key",
+                "3":"* List ID"
+            },
+             "mailerlite":{
+                "1":"",
+                  "2":"* API Key",
+                "3":"* List ID"
+            },
+             "convertkit":{
+                "1":"API Secret",
+                "2":"* API Key",
+                "3":"* Exact Tag Name"
+            },
+             "activecampaign":{
+                "1":"* App Url",
+                   "2":"* API Key",
+                "3":"* List ID"
+            },
+             "klaviyo":{
+                "1":"",
+                    "2":"* API Key",
+                "3":"* List ID"
+            },
+             "sendinblue":{
+                "1":"",
+                     "2":"* API Key",
+                "3":"* List ID"
+            },
+             "acellemail":{
+                "1":"",
+                "2":"* API Key",
+                "3":"* List ID"
+            },
+             "constantcontact":{
+                "1":"* API Token",
+                  "2":"* API Key",
+                "3":"* List ID"
+            },
+             "markethero":{
+                "1":"",
+                  "2":"* API Key",
+                "3":"* Exact Tag Name"
+            },
+             "moosend":{
+                "1":"",
+                 "2":"* API Key",
+                "3":"* List ID"
+            },
+             "getgist":{
+                "1":"",
+                "2":"* API Key",
+                "3":"* Exact Tag Name"
+            },
+             "hotprospector":{
+                "1":"* API ID ",
+                "2":"* API Key",
+                "3":"* GROUP Id"
+            },
+             "drip":{
+                "1":"* Account ID",
+                "2":"* API Token",
+                "3":"* Select Tag"
+            },
+             "sendlane":{
+                "1":"* Hash Key",
+                   "2":"* API Key",
+                "3":"* List ID"
+            },
+             "mailingboss":{
+                "1":"",
+               "2":"* API Key",
+                "3":"* List ID"
+            },
+             "kartra":{
+                "1":"* API Key",
+                "2":"* API Password",
+                "3":"* Exact List Name"
+            },
+             "sendgrid":{
+                "1":"",
+               "2":"* API Key",
+                "3":"* List ID"
+            },
+             "benchmark":{
+                "1":"",
+                 "2":"* API Key",
+                "3":"* List ID"
+            },
+             "sendfox":{
+                "1":"",
+                "2":"* API Token",
+                "3":"* List ID"
+            },
+             "mautic":{
+                "1":"* Email",
+                "2":"* Password",
+                "3":"* Url"
+            }, 
+            "hubspot":{
+                "1":"",
+                  "2":"* API Key",
+                "3":"* List ID"
+            }, 
+            "simplero":{
+                "1":"* API key",
+                "2":"* Purpose",
+                "3":"* List ID"
+            }, 
+            "ontraport":{
+                "1":"* API key",
+                "2":"* APP ID",
+                "3":"* Tag ID"
+            },
+            "influencersoft":{
+                "1":"* Username",
+                "2":"* API Key",
+                "3":"* List ID"
+            },
+            "automizy":{
+                "1":"* API Token",
+                  "2":"* List ID",
+                "3":"Exact Tag Name"
+            },
+            "gohighlevel":{
+                "1":"* API Key",
+                  "2":"Exact Tag Name",
+                "3":""
+            },
+             "socialfox":{
+                "1":"* API Key",
+                  "2":"Exact Tag Name",
+                "3":""
+            }, 
+			"zenler":{
+                "1":"",
+                "2":"* API Key",
+                "3":"* Account Name"
+            }
+            
+        }
+    
+	},
+
+	"ch": {
+			"all_settings": {
+			"global_autoresponder_label": "完全禁用電子報",
+			"global_googlesheet_enable_label": "允許全部社團共用一份Google表單",
+			"global_declinemessage_enable_label": "允許發送拒絕入社訊息",
+			"global_language_label": "語言設定",
+			"all_groups_table": {
+				"all_groups_group_name_th_2": "社團名稱",
+				"all_groups_group_name_th_3": "動作",
+				"actions": {
+					"setting_title": "設定",
+					"auto_approve_title": "自動核准設定",
+					"delete_title": "刪除"
+				},
+				"load_more": "載入更多..."
+			}
+		},
+		"footer": {
+			"affiliate_url_label": "加入聯盟行銷",
+			"get_support_label": "阅读家教",
+			"web_app_label": "登錄網絡應用",
+			"h5": "覺得Group Leads有用嗎?",
+			"chrome_store_h6": "請考慮到這裡留言心得 <a href='https://chrome.google.com/webstore/detail/group-leads-facebook-grou/fflgpaejocnobejfanekjilflogejjch' class='light-text' target='_blank'>chrome擴充程式商店</a>",
+			"note_affiliate_p": "Group Leads與Facebook沒有任何聯盟關係"
+		},
+		"settings_per_group": {
+			"settings_for_h5": "設定",
+			"google_sheet_url": {
+				"label": "輸入你的Google表單連結",
+				"verified": "已驗證",
+				"verify": "驗證"
+			},
+			
+			
+			
+			"google_sheet_copy": {
+				"label": "*复制这个 <a href='#'>Google 表格和格式</a>"
+			},
+			
+			
+			
+			
+			"autoresponder_section": {
+				"header_h6": "電子報",
+				"credentials_form_link_a": "憑證"
+			},
+			"disable_autoresponder_per_group": "禁用電子報",
+			"disable_decline_per_group": "啟用拒絕入社私訊",
+			
+			"disable_welcome_per_group": "启用欢迎消息",
+			"disable_tagging_per_group": "在欢迎帖子中标记新成员",
+			"show_custom_decline": "自訂拒絕入社私訊",
+			"show_custom_welcome": "自定义欢迎消息 ",
+			"view_google_sheet_data": "查看資料",
+			"update_button": "更新",
+			"back_button": "返回"
+		},
+
+		"report_page": {
+			"table": {
+				"th_1": "社團名稱",
+				"th_2": "最後執行時間",
+				"th_3": "下次執行時間",
+				"error_message":"你至少要加入一個社團才能看到自動允許的報表",
+				"automation_off":"自动化关闭"
+			}
+		},
+
+		"share_page": {
+			"page_title_h4": "透過Email分享",
+			"email_label": "聯絡Email",
+			"email_placeholder": "使用小寫逗號輸入Emails",
+			"email_h6": "例如(johndoe@gmail.com, mary@live.com)",
+			"share_message": "訊息",
+			"share_textarea_message": "我使用Group Leads chrome 擴充程式來將我的Facebook社團成員資訊收集到Google表單中，並讓他們訂閱電子報.了解更多: https://groupleads.net/",
+			"button_label": "分享"
+		},
+		"profile_page": {
+			"page_title_h4": "編輯基本資料",
+			"full_name_label": "全名",
+			"email_label": "电子邮件",
+			"button_label": "更新",
+			"profile_message_h3":"資料已更新",
+			"billing_section": {
+				"h2_1": "付款資訊",
+				"h2_2": "目前方案",
+				"allowed_text": "已允許的社團",
+				"p_text": "點擊以下升級按鈕支付終身使用權並能新增無限社團",
+				"upgrade_button_label": "升級"
+			}
+		},
+
+		"decline_message_page": {
+			"page_title_h5": "拒絕的私訊",
+			"note": {
+				"span": "附註",
+				"text": ": 你可以使用 [first_name], [last_name], [group_name], [group_url]"
+			},
+			"decline_message": {
+				"label": "自訂訊息"
+			},	
+			
+			"decline_interval_text":"每个发送消息",
+            "decline_interval_text_sp":"分钟）",
+            "decline_limit_text":"发送后停止",
+            "decline_limit_text_sp":" 讯息",
+            "decline_start_text":"暂停并在之后重新开始",
+            "decline_start_text_sp":"分钟）",
+            "decline_random_message_per_group":"随机化消息",
+            "decline_message_template": "嗨，[first_name]，您申請加入社團:[group_name] 被拒絕了，因為您沒有填寫申請入社的問題。社團連結在這:[group_url]。你可以重新申請加入並填寫入社問題。謝謝。",			
+			"update_button_lable": "更新",
+			"back_button_lable": "返回",
+			"auto_decline_per_group":"根据关键字自动拒绝",
+            "auto_decline_key_label":"关键词",
+            "auto_decline_placeholder":"输入关键字并按ENTER键",
+            "auto_decline_key_label_2":"间隔",
+            "auto_decline_save_btn":"保存"
+		},
+		
+		"tag_page": {
+		    "tag_key_label": "在欢迎帖子中标记新成员",
+            "tag_key_label_2":"帖子网址",
+            "tag_in_single_comment_label":"标记自定义批准所有评论",
+            "tag_random_message_per_group":"随机评论",
+            "welcome_comment": "Thanks for joning.",
+            "save_tag_form":"保存"
+		},
+		
+		"welcome_message_page": {
+			"page_title_h5": "欢迎留言",
+			"note": {
+				"span": "附註",
+				"text": ": 你可以使用 [first_name], [last_name], [group_name], [group_url]"
+			},
+			"welcome_message": {
+				"label": "自訂訊息"
+			},
+			"welcome_interval_text":"每个发送消息",
+            "welcome_interval_text_sp":"分钟）",
+            "welcome_limit_text":"发送后停止",
+            "welcome_limit_text_sp":"分钟）",
+            "welcome_start_text":"暂停并在之后重新开始",
+            "welcome_start_text_sp":"分钟）",
+            "welcome_random_message_per_group":"随机化消息",
+            "welcome_message_template": "Hey [first_name] [last_name], \n\nThank you for requesting to join [group_name].\n\nI've just approved you and I'm super excited to have you in our group. \n\nFeel free to make your first post and introduce yourself. \n\nPS: If you would like to invite other people to benefit from this group, please send them the link below:[group_url]",
+			"update_button_lable": "更新",
+			"back_button_lable":"返回"
+		},
+
+		"auto_approve_page_settings": {
+			"page_title_h5": "自動允許設定",
+			"enable_automation_lable": "啟用自動許可",
+			"interval_label": "每幾分鐘自動核准新社員",
+			"valid_member_section": {
+				"section_label": "自動核准新社員，如果:",
+				"all_answered_label": "三個問題都有回答",
+				"is_email": "其中一個問題有留Email",
+				"joined_before_label": "加入FB至少:",
+				"joined_before_options":["--",
+											"一個月前",
+											"三個月前",
+											"六個月前",
+											"一年前",
+											"兩年前",
+											"三年前"
+											],
+				"already_friends_label": "有幾位朋友已經在此社團:",
+				"lives_in_label": "居住在:",
+				"lives_in_placeholder": "輸入城市名",
+				"mutual_friend_label": "與我有幾位共同好友:",
+				"common_groups_label": "與我同在幾個相同社團:",
+				"update_button_lable": "更新",
+				"update_button_lable_processing": "儲存...",
+				"back_button_lable": "返回"
+			}
+		},
+
+		"credential_autoresponder_page": {
+			"credential_title_span_2": " 憑證",
+			"update_button_lable": "確認並更新",
+			"back_button_lable": "返回",
+			"kartra_label": "* 應用程式編號",
+			"mautic_label": "* 應用程式編號",
+			"cancel_edit":"取消编辑"
+		},
+		
+		"login_page": {
+			"login_page_title_h3": "歡迎!!",
+			"p1_text": "想設定好一個FB社團並省時賺錢嗎?",
+			"license_key": {
+				"label": "請輸入你的<span>授權碼</span>開始",
+				"placeholder": "輸入授權碼"
+			},
+			"forgot_key_a": "忘記授權碼?",
+			"login_button_label": "登入",
+			"signup_label":"開始免費試用"
+		},
+
+		"forgot_license_page": {
+			"forgot_label": "忘記授權碼?",
+			"forgot_placeholder": "輸入你註冊的Email",
+			"forgot_button_label": "發送授權碼",
+			"already_key": {
+				"text": "已經有授權碼了?",
+				"a_text": "登入"
+			}
+		},
+
+		"autoresponder_credential_page": {
+			"page_title_span_2": "憑證",
+			"submit_lable": "確認並更新",
+			"back_button_lable": "返回"
+		},
+		
+		"logout_modal": {
+			"logout_modal_h3": "即將回來!",
+			"logout_modal_h6":"你確定要登出嗎?",
+			"yes_btn": "是的",
+			"no_btn": "取消",
+			"logout_message":"你已經登出了"
+		},
+		
+		"delete_group_modal": {
+			"message_delete_h6": "你確定要刪除此社團",
+			"yes_btn": "是的",
+			"no_btn": "取消"
+		},
+		
+		"share_modal":{
+		    "share_h3":"感謝與你的朋友分享"
+		},
+		
+		"api_message":{
+		        "login": {
+		            "cancle_message":"你的授權碼已經被取消，請通知管理員",
+		             "expired_message":"你的授權碼已經過期，請通知管理員",
+		             "200_message":"登入成功",
+		             "invalid_key_message":"無效的授權碼",
+		             "update_message":"請更新Group Leads擴充程式"
+		        },
+		          
+		        "save_auto_settings":{
+		            "save_message":"已儲存設定",
+		            "update_message":"已更新設定"
+		            
+		        },
+		        
+		        "decline_page_message":"已儲存拒絕訊息",
+		          "welcome_page_message":"欢迎消息已保存",
+		        "global_setting_message":"已更新設定",
+		        
+		        "reset_license": {
+		            "send_mail":"已發信",
+		             "went_wrong":"出錯了，請重試。",
+		             "not_register":"您的Email並無註冊過!!"
+		         
+		        },
+		        
+		        "update_autoresponder_credentials":{
+		            "new_added":"驗證憑證並新增",
+		            "verified_updated":"驗證憑證並更新",
+		            "invalid_message":"無效憑證"
+		        },
+		        
+		        "per_group_setting":{
+		            
+		            "already_used":"此Google表單已經用於其他社團",
+		            "updated_settings":"設定更新",
+		            "update_build":"更新建立"
+		            
+		            
+		        }
+		    
+		},
+		
+		"content_script_message":{
+		    "invalid_google_sheet_url":"請指定一個有效的Google表單給此社團",
+		    "select_autoresponder":"請為此社團選擇一個電子報系統",
+		    "blank_credentials":"請輸入該電子報系統的憑證",
+		    "loading_requests":"載入所有資訊...",
+		    "uploading_message":"上傳中...",
+		    "complete_message":"完成"
+		},
+		
+		"background_script_message":{
+		    "google_sheet_not_valid":"無效的Google表單",
+		    "google_sheet_not_valid_for":"此Google表單是無效的",
+		    "google_sheet_url_invalid":"無效的Google表單"
+		},
+		
+		"login_form":"授權碼不能留空",
+		
+		"profile_form":{
+		    "name":"請輸入全名",
+            "email":{
+                "required": "請輸入Email",
+                "email": "請輸入有效的Email",
+                "remote": "此Email已註冊過了"
+            }
+		    
+		},
+		
+		"forgot_password":{
+		    "email":{
+                "required": "此Email不能留空",
+                "email": "請輸入有效的Email"
+		    }
+		    
+		},
+		
+		"group_setting_form" :{
+            "google_sheet_url":{
+                    "required": "此Google表單不能留空",
+                    "url": "無效的連結"
+            }
+        },
+        
+        "share_form":{
+            "emails":{
+            "required": "此為必填欄位",
+            "multiemails": "無效的Email"
+            },
+            "sharemessage":{
+                "required": "此為必填欄位"
+            }
+        },
+        
+        "credential_form":{
+            "fields":{
+                "required":"此為必填欄位",
+                "url":"無效的連結"
+            }
+            
+        },
+        
+        "add_group_tab":{
+            
+            "add_group_h5":"開始連結你的FB社團",
+            "add_group_btn":"新增此社團"
+        },
+        
+        
+        "open_my_groups_tab":{
+            
+            "open_my_group_h5":"開始連結你的FB社團",
+            "open_my_group_btn":"開啟我的社團",
+            "lost_way_h5":"不知所措嗎?",
+            "check_h4":"請查看教學",
+            "or_h6":"或",
+            "request_call":"透過Zoom邀請5-15分鐘的視訊教學"
+        },
+        
+        "open_facebook_groups":{
+            
+            "opening_h5":"請開啟你的FB社團",
+            "lost_way_h5":"不知所措嗎?",
+            "or_h4":"請查看教學",
+            "request_call":"透過Zoom邀請5-15分鐘的視訊教學"
+        },
+        
+        "navigation":{
+            "sharetext":"分享",
+            "settingtext":"設定",
+            "reporttext":"報表",
+            "profiletext":"基本資料",
+            "logouttext":"登出"
+        },
+        "ar_labels":{
+            "mailchimp":{
+                "1":"标签名称",
+                "2":"* api密钥",
+                "3":"* 受众ID"
+            },
+            "getresponse":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 列表名称"
+            },
+             "sendy":{
+                "1":"* API路径",
+                "2":"* API密钥",
+                "3":"* 列表名称"
+            },
+             "mailerlite":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "convertkit":{
+                "1":"API Secret",
+                "2":"* API密钥",
+                "3":"* 确切的标签名称"
+            },
+             "activecampaign":{
+                "1":"* 应用程式网址",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "klaviyo":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "sendinblue":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "acellemail":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "constantcontact":{
+                "1":"* 令牌API",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "markethero":{
+                "1":"",
+                 "2":"* API密钥",
+                "3":"* 确切的标签名称"
+            },
+             "moosend":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "getgist":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "hotprospector":{
+                "1":"* API编号",
+                "2":"* API密钥",
+                "3":"* 群组编号"
+            },
+             "drip":{
+                "1":"* 帐户ID",
+                "2":"* 令牌火",
+                "3":"* 选择标签"
+            },
+             "sendlane":{
+                "1":"* 散列键",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "mailingboss":{
+                "1":"",
+               "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "kartra":{
+                "1":"* API密钥",
+                "2":"* API密码",
+                "3":"* 确切的清单名称"
+            },
+             "sendgrid":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "benchmark":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+             "sendfox":{
+                "1":"",
+                "2":"* API令牌",
+                "3":"* 清单编号"
+            },
+             "mautic":{
+                "1":"* 电子邮件",
+                "2":"* 密码",
+                "3":"* 网址"
+            },
+              "hupspot":{
+                "1":"",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            }, 
+            "simplero":{
+                "1":"* API密钥",
+                "2":"* 目的",
+                "3":"* 清单编号"
+            }, 
+            "ontraport":{
+                "1":"* API密钥",
+                "2":"* APP ID",
+                "3":"* 标签编号"
+            },
+            "influencersoft":{
+                "1":"* 用户名",
+                "2":"* API密钥",
+                "3":"* 清单编号"
+            },
+            "automizy":{
+                "1":"* API令牌",
+                "2":"* 清单编号",
+                "3":"确切的标签名称"
+            },
+            "gohighlevel":{
+                "1":"* API Key",
+                "2":"确切的标签名称",
+                "3":""
+            },
+            "socialfox":{
+                "1":"* API Key",
+                "2":"确切的标签名称",
+                "3":""
+            },
+			"zenler":{
+                "1":"",
+                "2":"* API Key",
+                "3":"* 用户名"
+            }
+            
+        }
+        
+        
+    }
+}
